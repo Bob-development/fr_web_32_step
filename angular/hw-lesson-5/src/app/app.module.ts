@@ -14,6 +14,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { PeopleComponent } from './people/people.component';
 import { PersonComponent } from './person/person.component';
 import { AdminComponent } from './admin/admin.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { AdminComponent } from './admin/admin.component';
     AppComponent,
     PeopleComponent,
     PersonComponent,
-    AdminComponent
+    AdminComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

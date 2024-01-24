@@ -9,15 +9,15 @@ export class PeopleService {
   private people:any[] = [
     {
       id: 0,
-      name: "John Doe"
+      label: "Smartphones"
     },
     {
       id: 1,
-      name: "Mike Bibby"
+      label: "Computers"
     },
     {
       id: 2,
-      name: "Jim Root"
+      label: "Laptops"
     }
   ];
 

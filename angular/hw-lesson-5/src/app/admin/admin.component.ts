@@ -14,8 +14,4 @@ export class AdminComponent {
   ) {
 
   }
-
-  public onSubmitHandler(form) {
-    this.peopleService.addNewPerson(form.value)
-  }
 }

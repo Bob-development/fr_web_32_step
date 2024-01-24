@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
 import { PeopleComponent } from './people/people.component';
 import { PersonComponent } from './person/person.component';
+import { MainComponent } from "./main/main.component";
 
 const routes: Routes = [
   {
@@ -13,11 +14,15 @@ const routes: Routes = [
     component: AppComponent
   },
   {
-    path: "people",
+    path: "about-us",
     component: PeopleComponent
   },
   {
-    path: "admin",
+    path: "contact",
+    component: PeopleComponent
+  },
+  {
+    path: "products",
     component: AdminComponent
   },
   {

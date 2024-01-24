@@ -1,10 +1,6 @@
-<form #form="ngForm" (submit)="onSubmitHandler(form)">
-    <mat-form-field class="example-full-width">
-      <mat-label>Name</mat-label>
-      <input name="name" matInput ngModel placeholder="Name" value="">
-    </mat-form-field>
+<div *ngFor="let person of peopleService.getPeople()">
+  <div class="label">{{person.label}}</div>
+  <div class="id">{{person.id}}</div>
+</div>
 
-    <div class="button-wrapper">
-        <button mat-raised-button color="accent">Add new Person</button>
-    </div>
-  </form>
+<div class="">hey</div>
