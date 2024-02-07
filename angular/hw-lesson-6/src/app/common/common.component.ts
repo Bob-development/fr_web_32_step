@@ -11,10 +11,12 @@ export class CommonComponent {
   constructor(
     public http:HttpClient
   ) {
-    http.get("https://swapi.dev/api/people").subscribe(data => {
+    http.get("https://swapi.dev/api/films").subscribe(data => {
       console.log(data)
       this.kek = data;
       this.kek = this.kek.results;
+      
+      
 
 
     })

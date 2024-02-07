@@ -2,8 +2,13 @@
 
   
 
-    <div *ngFor="let person of kek">
-        {{person.name}}
+    <div *ngFor="let pudge of kek">
+        <div class="title">
+            {{pudge.title}}
+        </div>
+        <div class="descr">
+            {{pudge.opening_crawl}}
+        </div>
     </div>
 
     <!-- <app-pizza></app-pizza>
